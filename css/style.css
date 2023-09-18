@@ -1,67 +1,122 @@
  * {
-    text-decoration: none;
-}
+     text-decoration: none;
+ }
 
-body {
-    background: #F1E4E6;
-}
+ .header {
+     background: #222;
+ }
 
-.menu {
-    background: #080607;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
+ .content {
+     margin-left: calc(50% - 570px);
+     margin-right: calc(50% - 570px);
+     display: flex;
+     justify-content: space-between;
+     min-height: 75px;
+     align-items: center;
+ }
 
+ .menu {
+     display: flex;
+     gap: 40px;
+     align-items: center;
+ }
 
-.block {
-    display: flex;
-    align-items: center;
-}
-/* 
-.greed {
-    gap: 30px;
-    margin-top: 80px;
-    display: grid;
-    justify-content: space-around;
-}
+ .block {
+     background: #F1E4E6;
+ }
 
+ .page {
+     display: flex;
+     justify-content: center;
+ }
 
-.items {
-    fill: rgba(33, 22, 22, 0.70);
-    display: flex;
-    gap: 60px;
-    justify-content: space-around;
-}
-
-.item {
-    fill: rgba(33, 22, 22, 0.70);
-    width: 360px;
-    height: 260px;
-
-}
-
-.itemslongs {
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
-}
-
-.longitem {
-    width: 1140px;
-    height: 180px;
+ .top {
+    width: 800.58px;
+    height: 764px;
     flex-shrink: 0;
-} */ */
+ }
 
-/* .blockthree {
-    display: grid;
+ .right {
+     display: flex;
+     align-items: center;
+  
+ }
 
-}
+ .palka {
+     width: 100%;
+     height: auto;
 
-.text {}
+ }
 
-.img {
-    width: 360px;
-    height: 420px;
-    flex-shrink: 0;
-} */
+ .man_text {
+    margin-top: 345px;
+    margin-left: 500;
+ }
+
+ 
+
+
+
+ .greed {
+     gap: 30px;
+     margin-top: 80px;
+     display: grid;
+     justify-content: space-around;
+ }
+
+ .text {}
+
+ .text h1 {
+     color: #222;
+     font-family: Lato;
+     font-size: 30px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+ }
+
+ .par {
+     color: #9F9F9F;
+     font-family: Lato;
+     font-size: 14px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+ }
+
+ .item {
+     fill: rgba(33, 22, 22, 0.70);
+ }
+
+ .items {
+     fill: rgba(33, 22, 22, 0.70);
+     display: flex;
+     gap: 28px;
+     justify-content: space-around;
+ }
+
+
+
+ .itemslongs {
+     margin-top: 30px;
+     display: flex;
+     justify-content: center;
+ }
+
+ .longitem {
+     width: 1140px;
+     height: 180px;
+     flex-shrink: 0;
+ }
+
+ .blockthree {
+     display: inline;
+ }
+
+ .img {
+     display: flex;
+ }
+
+ .two {
+     display: flex;
+ }
